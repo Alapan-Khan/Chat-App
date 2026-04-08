@@ -1,0 +1,16 @@
+MONGO_URI = mongodb://localhost:27017
+
+
+JWT_SECRET=ddfgcfgccgjfhghgfhgfghggvgfghvghfg
+
+
+ADMIN_SECRET_KEY=koregajiyuda
+
+NODE_ENV = DEVELOPMENT
+
+CLIENT_URL = frontend url
+
+
+CLOUDINARY_CLOUD_NAME=dxxg4h4xo
+CLOUDINARY_API_KEY=112521668967736
+CLOUDINARY_API_SECRET=xOoVoYdT2fMbkvwBrmn2Y7cxI-U
