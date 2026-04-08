@@ -149,6 +149,7 @@ const acceptFriendRequest = TryCatch(async (req, res, next) => {
     Chat.create({
       members,
       name: `${request.sender.name}-${request.receiver.name}`,
+      groupChat: false,
     }),
     request.deleteOne(),
   ]);
