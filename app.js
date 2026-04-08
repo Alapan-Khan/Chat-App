@@ -12,6 +12,8 @@ import cors from "cors";
 import { v2 as cloudinary } from "cloudinary";
 
 import {
+  CHAT_JOINED,
+  CHAT_LEAVED,
   NEW_MESSAGE,
   NEW_MESSAGE_ALERT,
   ONLINE_USERS,
